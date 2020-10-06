@@ -10,6 +10,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		video {
+ 		 width: 100%;
+  		height: auto;
+		}
+		td {
+ 		 vertical-align: middle;
+		}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -43,20 +52,160 @@
 									<hr class="major" />
 
 									<h2>Goals</h2>
-									<p>I come from <strong>Darkness Will Arise</strong>. Our team is aimed to design a communication tools for deaf and hard-to-hear people so that 
-									<br>1. They can use online communication, especially those media is in video and audio form, without any troublesome.
-									<br>2. They can interact with normal people directly.
+									<img src="images/icon.png" alt="" />
+									<p>I come from <strong>Darkness Will Arise</strong>. Our team is aimed to design Handler, which is a communication tools for deaf and hard-to-hear people so that 
+									<br>1. They can use online communication, especially those media is in video and audio form, without any trouble.
+									<br>2. They can interact with normal people with their most familiar language (i.e. sign language).
+									<br>3. They do not depend on lip-reading.
+									<br>With these visions, we hope Handler can help the target audience to have better experience when using online communication tools.
 									</p>
 									<hr class="major" />
 
 									<h2>learning and execution process</h2>
-									<p>Here is the storyboard:</p>
-									<span class="image main"><img src="images/storyboard_1.jpg" alt="" /></span>
+									<p>First, we identify the target audience of our app as the deaf and hearing-impaired people. To understand the obstacles they encounter when using online communication tools, we did research and a mini-experiment, which acts as deaf by muting all people in the lecture.
+									<h4>Reference Page:</h4>
+									<table class="reference">
+  									<tbody><tr>
+    									<th style="width:25%;">Topic</th>
+   									<th style="width:75%;">Link</th>
+   									</tr>
+  									<tr>
+    									<td>Communication and culture: Signing Deaf people online in Europe</td>
+    									<td><a href="https://www.researchgate.net/publication/27827111_Communication_and_culture_Signing_Deaf_people_online_in_Europe">https://www.researchgate.net/publication/27827111_Communication_and_culture_Signing_Deaf_people_online_in_Europe</a></td>
+  									</tr>
+  									<tr>
+    									<td>Why do some deaf people have trouble understanding written text?</td>
+    									<td><a href="https://www.quora.com/Why-do-some-deaf-people-have-trouble-understanding-written-text">https://www.quora.com/Why-do-some-deaf-people-have-trouble-understanding-written-text</a></td>
+  									</tr>
+									<tr>
+    									<td>Communication tips for online meetings</td>
+    									<td><a href="https://equality.leeds.ac.uk/support-and-resources/disability-2/deaf-awareness/support-for-deaf-and-hard-of-hearing-colleagues/communication-tips-online-meetings/">https://equality.leeds.ac.uk/support-and-resources/disability-2/deaf-awareness/support-for-deaf-and-hard-of-hearing-colleagues/communication-tips-online-meetings/</a></td>
+  									</tr>
+									<tr>
+    									<td>Creating Streamed Instruction for the Deaf and Hard-of-Hearing Online Learne</td>
+    									<td><a href="https://www.learningdesign.psu.edu/assets/uploads/deos/deosnews11_8.pdf">https://www.learningdesign.psu.edu/assets/uploads/deos/deosnews11_8.pdf</a></td>
+  									</tr>
+									</tbody></table>
 
+									</br></br>After doing research, we consider several problems that the deaf will encounter and draw storyboards in 2 perspectives: As a receiver and as a sender.
+									</br>As a receiver, they may not be able to understand the message solely depending on lip-reading and image. Sign language indeed is an unique language that every deaf learns and uses to communicate.They may not be familiar with the grammer of other language such as English and Chinese. They may not understand the message by reading the text.
+									Let's see the situation below:</p>
+									<img src="images/storyboard_1.jpg" alt="" width="100%" />
+									<hr>
+									<p>As a sender, the deaf cannot speak and thus the only method to interact with the normal people is via texting since the majority of the public does not understand sign language. Meanwhile, texting is not a really effective input method and the deaf may not be familiar with this "second" language, which makes them put much effort to communicate with others by an unfamiliar language.</p>
+									<img src="images/storyboard_2.png" alt="" / width="100%" >
+									<hr>
+									<p>After we identified the trouble the deaf faced currently, we have set certain goals (listed above in the Goals section) so that they can have a better experience on online communication just like what we are experiencing now.In order to achieve those goals, we have included the following features and some groupmates were editing the video with mmd:</p>
+									<table class="reference">
+  									<tbody><tr>
+    									<th style="width:25%;" align="center">Feature</th>
+									<th style="width:25%;" vertical-align=" middle">Usage</th>
+   									<th style="width:50%;">Interface</th>
+   									</tr>
+  									<tr>
+    									<td>Sign-to-Text & Audio </td>
+									<td>1.Automatically translate sign language to text in real-time meeting<br>2.Alternate input methods<br> => deafs can interact with normal people with their most familiar language , ie. sign language. </td>
+    									<td ><video src="video/chat record.mp4"  controls="controls" /></td>
+  									</tr>
+  									<tr>
+    									<td>Text & Audio-to-Sign</td>
+									<td>Automatically translate audio to sign language in real-time meeting so that the deaf does't need to rely on lip-reading</td>
+									<td ><video src="video/pizza order .mp4"  controls="controls" /></td>
+  									</tr>
+									<tr>
+    									<td>Avatar</td>
+									<td>1. Deafs can look at the sign language to get the messages instead of reading text or lip.</br>2. The quality of the streaming video doesn't affect the deaf to understand the message. </td>
+									<td><span class="image main"><img src="images/avater.png" alt="" /></span></td>
+  									</tr>
+									<tr>
+    									<td>Custom Gesture</td>
+									<td>Customize your gesture to make input process more effective and faster.
+    									<td><video src="video/custom gesture 2.mp4"  controls="controls" /></td>
+  									</tr>
+									</tbody></table>
+
+									<p>At the same time, our group used Adobe XD to design the UI and below is our product:</p>
+									<table class="reference">
+									<tbody><tr>
+    									<th style="width:25%;">Feature</th>
+									<th style="width:25%;">Usage</th>
+   									<th style="width:50%;">Interface</th>
+   									</tr>
+  									<tr>
+    									<td>Login </td>
+									<td>Login our app with your personal account. </td>
+    									<td ><span class="image main"><img src="images/UI-login.png" alt="" /></span></td>
+  									</tr>
+  									<tr>
+    									<td>Menu</td>
+									<td>Connect other page in our app</td>
+									<td ><span class="image main"><img src="images/UI-menu.png" alt="" /></span></td>
+  									</tr>
+									<tr>
+    									<td>Call </td>
+									<td>Call others by typing the number</td>
+									<td><img src="images/UI-call.png" alt="" /></td>
+  									</tr>
+									<tr>
+    									<td>Contact list </td>
+									<td>Save your friends' contact number</td>
+									<td><img src="images/UI-contact list.png" alt="" /></td>
+  									</tr>
+									<tr>
+    									<td>Schedule a meeting </td>
+									<td>Schedule a meetingin Handler. There is an alarm to remind you and you can download a cloud record for reviewing the meeting.</td>
+									<td><span class="image main"><img src="images/UI-Schedule.png" alt="" /></span></td>
+  									</tr>
+									<tr>
+    									<td>Calling Screen</td>
+									<td>Room for calling other and holding a meeting</td>
+									<td><span class="image main"><img src="images/UI-meeting.png" alt="" /></span></td>
+  									</tr>
+									<tr>
+    									<td>Chat record</td>
+									<td>Users can review the chat record</td>
+									<td><img src="images/UI-chat record.png" alt="" /></td>
+  									</tr>
+									<tr>
+    									<td>Gesture</td>
+									<td>See and download other's custom gestures.</td>
+    									<td><span class="image main"><img src="images/UI-gesture.png" alt="" /></span></td>
+  									</tr>
+									<tr>
+    									<td>Custom Gesture</td>
+									<td>Customize your gesture and add tags to store your personal gesture.
+    									<td><span class="image main"><img src="images/UI-custom gesture.png" alt="" /></span></td>
+  									</tr>
+									</tbody></table>
 									<hr class="major" />
-
+												
 									<h2>Achievement at each milestone</h2>
-									<p> I have many achievement</p>											
+									<table class="reference">
+									<tbody><tr>
+    									<th style="width:25%;">Date (Month/ Day)</th>
+									<th style="width:25%;">Achievement</th>
+   									</tr>
+									<tr>
+    									<td>10/01 </td>
+									<td> Finish Research (See learning and execution process section)</td>
+  									</tr>
+  									<tr>
+    									<td>10/03 </td>
+									<td> Finish Feature Video (See learning and execution process section)</td>
+  									</tr>
+  									<tr>
+    									<td>10/05</td>
+									<td> Finish UI design (See learning and execution process section)</td>
+  									</tr>
+									<tr>
+    									<td>10/06</td>
+									<td> Finish Powerpoint </td>
+  									</tr>
+									<tr>
+    									<td>10/08</td>
+									<td> Presentation </td>
+  									</tr>
+									</tbody></table>										
 									<hr class="major" />
 
 									<h2>Personal Reflection</h2>
@@ -162,8 +311,9 @@
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
+									<p class="copyright"></p>
+								
+</footer>
 						</div>
 					</div>
 
