@@ -1,0 +1,325 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project 2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<style>
+		video {
+ 		 width: 100%;
+  		height: auto;
+		}
+		td {
+ 		 vertical-align: middle;
+		}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="../index.html" class="logo"><strong>Anson's</strong> homepage </a>
+									
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Project 2 :Designing a Chat box app</h1>
+									</header>
+
+									
+
+									<p><strong>Project Description:</strong>
+									</br>This project aims to design a Chat box app for the target user to build up a communication.
+									</p>
+									
+									<hr class="major" />
+
+									<h2>Goals</h2>
+									<img src="images/project_2/icon.png" width="600"  alt="" />
+									<p>I come from <strong>Darkness Will Arise</strong>. We are going to design MART-E, which is a chat box for users so that 
+									<br>1. They can seek assistance.
+									<br>2. They can save time and effort on buying goods.
+									<br>With these visions, we hope MART-E can help the target audience to have better experience on purchasing goods.
+									</p>
+									<hr class="major" />
+
+									<h2>learning and execution process</h2>
+									<h2>Empathize</h2>
+									<h4>Brainstorm</h4>
+									<img src="images/project_2/mind map.png" width="600"  alt="" />
+									<p>We develop our idea with a mind map. In order to understand the need of customers, we observe customers from those possible locations to purchase food: ie supermarket, Huge scale warehouse, wet market, and night market.</p>
+									<table class="reference">
+									<tbody><tr>
+    									<th style="width:30%;" align="center">Location</th>
+									<th style="width:35%;" vertical-align=" middle">Observation</th>
+   									<th style="width:35%;">example</th>
+   									</tr>
+									<tr>
+    									<td>Supermarket</td>
+										<td>- The map is separated into multiple sectors in term of different catorigories</br>
+										- It gives a general idea of the location of each category without identifying the exact place of each item.</br>
+										- Users need to find their goods from many sub-columns </br>
+										Hence, it is hard to find a specific item solely by looking in that map
+										</td>
+    									<td >Wellcome,Parknshop</td>
+  									</tr>
+									<tr>
+    									<td>Huge scale warehouse </td>
+										<td>- The map is separated into multiple sectors in term of different catorigories</br>
+										- The store is very large that customers may get lost in the store.
+										</td>
+    									<td >Costco</td>
+  									</tr>
+									<td>Wet market </td>
+									<td>- The floor plan layout in wet markets lacks graphical presentation</br>
+									- In a wet markets,stores selling the same type of goods may open in different locations. </br>
+									- In order to save memory, customers may spend much time on exploring the whole market and comparing the quality and price.
+									</td>
+    									<td > Central Market ,tranditional markets in Hong Kong</td>
+  									</tr>
+									</tr>
+									<td>Night market </td>
+									<td>
+									- It does not have any map or layout to guide customers.</br>
+									- Stores are clustered and the user may be blocked by others when finding what they want.</br>
+									-Each store does not have a clear list to show what they buy, meaning customers have to go inside each store when looking for a specific item.
+									</td>
+    									<td >Ladies' Market</td>
+  									</tr>
+									</tbody></table>
+									<p>From the observation, we found that people who are familiar with the location may know the cheapest and nearest way to buy items. However, they need some tool to remember what they need .What's more, they may need up-to-date information about goods as the price of an item may vary every day. It would be great if there is a price comparison to save their effect and time.</br>
+									For people who seldom buy goods and not familiar with the location, they may need to spend extra time finding the goods they need. More importantly, they may pay more to buy the same products with poor quality. They need a tool to guide them to buy what they need.</br>
+									According to <a herf="https://forward.com/sisterhood/119048/asking-for-help-men-vs-women/">Asking for Help: Men vs. Women</a>, it turns out that at least 44% of the population tends to not seek any help when lost. We really need a method for customers so that they are more willing to seek help</p>
+									<hr>
+									<h2>Interpret</h2>
+									<h4>POV</h4>
+									<p>In order to understand our target users and their need, We constructe a Point-Of-View based on the customer's view.
+ 									</br><img src="images/project_2/POV.png" alt="" width="100%" />
+									
+									<hr><h2>Ideate</h2>
+									<p>After we identified the insight the users may face when going to buy goods, we have set certain sub-goals:	
+									<br>1. They can identify what they want to buy.
+									<br>2. They can know where can buy the items.
+									<br>3. They can buy cheap and high quality goods without much efforts.
+									<br>4. They can seek assistance when they get lost.
+									<!--In order to achieve those goals, we have included the following features while some of them were banned:</p>
+									Inital Idea
+									<table class="reference">
+									<tbody><tr>
+    									<th style="width:30%;" align="center">Feature</th>
+									<th style="width:35%;" vertical-align=" middle">Usage</th>
+   									<th style="width:35%;">Reason for not included</th>
+   									</tr>
+									<tr>
+    									<td>Promotion alert </td>
+									<td>Initially, we want to send promotion like "XX buy one get one free today" when users put an item into shopping list. </td>
+    									<td >It is something extra for a ChatBox app. We want to focus on the basic feature first.</td>
+  									</tr>
+									<tr>
+    									<td>Plugin </td>
+									<td>We want to combine our app with the existing communication tools so that users do not need to download an extra application.</td>
+    									<td >It hard to get an agreement with all existing communication applications</td>
+  									</tr>
+									<td>Leap Motion </td>
+									<td>We want to use Leap Motion to capture the sign language</td>
+    									<td >Users need to purchase an extra device, which is relatively expansive campared to a camera.</td>
+  									</tr>
+									</tbody></table>-->
+									Idea that included in our current project
+									<table class="reference">
+  									<tbody><tr>
+    									<th style="width:25%;" align="center">Feature</th>
+									<th style="width:25%;" vertical-align=" middle">Usage</th>
+   									<th style="width:50%;">Interface</th>
+   									</tr>
+  									<tr>
+    									<td>Price comparsion </td>
+									<td>1.Show the prices and the distance as a reference
+									<br>2.Users can compare these information to make decision </td>
+    									<td ><img  src="images/project_2/comparsion.jpg"  width="100%"/></td>
+  									</tr>
+  									<tr>
+    									<td>Shopping list</td>
+									<td>1.Add items in the shopping list</br>
+										2. Help you indentify what you need</td>
+									<td ><img  src="images/project_2/shopping_list.jpg"  width="100%"/></td>
+  									</tr>
+									<tr>
+    									<td>Cookbook</td>
+									<td>1.Automatically appear when users enter a recipe in shopping list.
+									</br>2. Add the food itself or ingredients inside your shopping list. </td>
+									<td ><img  src="images/project_2/cookbook.jpg"  width="100%"/></td>
+  									</tr>
+									<tr>
+    									<td>Suggestion</td>
+									<td>1. Checks the shopping list and see if the user can buy other products for a recipe.
+									<br>2. Recommends items commonly bought together.
+									<br>3. Give some promotions.
+
+    									<td><img  src="images/project_2/suggestion_1.png"  width="100%"/><img  src="images/project_2/suggestion_2.png"  width="100%"/></td>
+  									</tr>
+									<tr>
+    									<td>Path advisor</td>
+									<td>1. Guide user to the exact item’s location
+
+    									<td><img  src="images/project_2/pathadvisor.png"  width="100%"/></td>
+  									</tr>
+									</tbody></table>
+									<hr><h2>Verify</h2>
+									<h4>Storyboard</h4>
+									<p>Using  MART-E, we believe that our target audience can buy their items in a smart way: they don't need much time to get a cheap and high quality goods. We drew a storyboard to demonstrate the situation, which helps us to understand the complete process of MART-E. 
+									</br></br>Path advisor:</p>
+									<img src="images/project_2/storyboard_1.png" alt="" width="100%" />
+									<p>Price comparison:</p>
+									<img src="images/project_2/storyboard_2.png" alt="" / width="100%" >
+									<hr>
+									<h2>Prototype</h2>
+									<table class="reference">
+  									<tbody><tr><iframe width="100%" height="720" src="https://www.youtube.com/embed/QYgvTpSchyE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></tr></tbody></table>
+									<hr class="major" />
+									<h2>My own contributions</h2>
+									 <p> In project 2, I am in charge of 2 duties: use javascript to build up a "identify what user need" and "delete item from list". I also build up a function to check if items have been added in the shopping list or not. <br>
+									Apart from the technical part, I draw the map of the market, design ppt and become the presenter in this project.
+								 </p>
+									<hr class="major" />
+									<h2>Personal Reflection</h2>
+									 <p> Throughout the entire project 2, 
+									</br> - It gives me another chance to apply the design process in the project, which makes me have a better understanding of it. 
+									</br> - I have hands-on experience in using javascript to build up a chatbot app. 
+									</br> - I have learned to make use of botkit to design our chatbot app, which can interact with user automically.
+									</br> - I have a better understanding of javascript coding.
+									</br> - The project has strengthened the knowledge regarding the design process and the ability to do javascript coding.</br>
+									</br>Apart from the technical part, 
+									</br> - In order to make the conversation informative and interesting, I pay more attention to thinking of the conversation, which makes me understand more about the users.
+									</br> - We need to team up to finish the whole project: separating duty and cooperate with other teammates in terms of coding is never an easy work. It provides me a hands-on experience to cope with the problem with a team.
+									</br>My javascript code is a kind of plugin of the shoppinf list, which mean I need to cooperate more with the teammates who finish the shopping list part.
+								 </p>
+								
+							</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+							<!-- 
+							<!-- Search --> 
+								<section id="search" class="alt"><!-- 
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>-->
+								</section>
+							
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../index.html">Homepage</a></li>
+										<span>Comp4461</span>
+										<ul>
+											<li><a href="Project_1.html">Project 1</a></li>
+											<li><a href="Project_2.html">Project 2</a></li>
+											<li><a href="Project_3.html">Project 3</a></li>
+										</ul>
+										<!--<li>
+											<span class="opener">Submenu</span>
+											<ul>
+												<li><a href="#">Lorem Dolor</a></li>
+												<li><a href="#">Ipsum Adipiscing</a></li>
+												<li><a href="#">Tempus Magna</a></li>
+												<li><a href="#">Feugiat Veroeros</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Etiam Dolore</a></li>
+										<li><a href="#">Adipiscing</a></li>
+										<li>
+											<span class="opener">Another Submenu</span>
+											<ul>
+												<li><a href="#">Lorem Dolor</a></li>
+												<li><a href="#">Ipsum Adipiscing</a></li>
+												<li><a href="#">Tempus Magna</a></li>
+												<li><a href="#">Feugiat Veroeros</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Maximus Erat</a></li>
+										<li><a href="#">Sapien Mauris</a></li>
+										<li><a href="#">Amet Lacinia</a></li>
+										-->
+									</ul>
+								</nav>
+							
+							<!-- Section -->
+								<section><!--
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>-->
+								</section>
+
+							<!-- Section -->
+								<section><!--
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+										<li class="icon solid fa-phone">(000) 000-0000</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>-->
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright"></p>
+								
+</footer>
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>
